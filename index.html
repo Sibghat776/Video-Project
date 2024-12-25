@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            overflow-x: hidden;
+        }
+
+        video {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        button {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        button > img {
+            height: 70px;
+            mix-blend-mode: color-burn;
+            position: absolute;
+            bottom: 34px;
+            right: 10vw;
+        }
+    </style>
+</head>
+
+<body>
+    <video>
+        <source
+            src="./Maqam-e-Sayyidina Siddique-e-Akbar Par 2 Khubsoorat Ahadees ｜ Muhammad Ajmal Raza Qadri Official.mp4"
+            type="video/mp4">
+    </video>
+    <button id="myBtn">
+        <img id="myImage" src="./Stop.png" alt="">
+    </button>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
